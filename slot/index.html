@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+
+      <div class="title-wrpper">
+        <div class="container">
+          <h1>Matsumoto-Labo</h1>
+        </div>
+      </div>
+
+      <div class="log-wrpper"　id="logdata">
+        <div class="container">
+          <div class="rotaion">
+            <p>残り{{ num }}回</p>
+          </div>
+          <div class="当たり">
+            当たり：{{winner-count}}回
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+
+      <div id="slots">
+
+
+        <div class="cutin-wrapper">
+          <div class="container">
+            <div class="letter">
+              <p>　</p>
+            </div>
+            <div class="cutin">
+              <p>img</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="slot-wrapper">
+          <div class="container">
+            <div class="icons">
+
+              <div class="icon left">
+                <img src="1.png" alt="" >
+              </div>
+
+              <div class="icon center">
+                <img src="2.png" alt="">
+              </div>
+
+              <div class="icon right">
+                <img src="3.png" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="button-wrapper">
+
+          <div class="container">
+            <div class="button-icon">
+              <div class="button-start" id="slot-start">
+                start
+              </div>
+            </div>
+
+            <div class="button-start">
+              <div class="button-push hide" id="movie-start">
+                push
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <script src="lottery.js"></script>
+
+
+  </body>
+</html>

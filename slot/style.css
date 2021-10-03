@@ -1,0 +1,60 @@
+body{
+
+}
+
+
+main{
+  background-color:;
+  width: auto;
+  height: auto;
+}
+.container{
+  text-align:center;
+}
+
+.cutin-wrapper{
+  background-color: pink;
+}
+
+
+
+.slot-wrapper{
+  background-color: green;
+}
+.icon{
+  float: left;
+  width: 33.333%;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+
+.button-start{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+}
+.button-icon{
+  background-color: black;
+  width:120px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+
+
+
+/* 表記させる */
+.show{
+  display: block;
+}
+
+/* 非表示にさせる */
+.hide{
+  display: none;
+}
